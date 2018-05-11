@@ -1,0 +1,10 @@
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\bin\Debug\FastWritingApp.exe.config
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\bin\Debug\FastWritingApp.exe
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\bin\Debug\FastWritingApp.pdb
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\obj\Debug\FastWritingApp.Form1.resources
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\obj\Debug\FastWritingApp.Properties.Resources.resources
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\obj\Debug\FastWritingApp.csproj.GenerateResource.Cache
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\obj\Debug\FastWritingApp.csproj.CoreCompileInputs.cache
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\obj\Debug\FastWritingApp.exe
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\obj\Debug\FastWritingApp.pdb
+C:\Users\mieshki\source\repos\FastWritingApp\FastWritingApp\obj\Debug\FastWritingApp.csprojResolveAssemblyReference.cache
