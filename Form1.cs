@@ -13,7 +13,7 @@ namespace FastWritingApp
     public partial class Form1 : Form
     {
         
-        public string textToWrite = "Księżyc to jedyne ciało niebieskie, do którego podróżowali i " +
+        string textToWrite = "Księżyc to jedyne ciało niebieskie, do którego podróżowali i " +
             "na którym wylądowali ludzie. Do tej pory na księżycowym globie stanęło 12 osób. Pierwszym " +
             "sztucznym obiektem w historii, który przeleciał blisko Księżyca, była wystrzelona przez Związek " +
             "Radziecki sonda kosmiczna Łuna 1; Łuna 2 jako pierwszy statek osiągnęła powierzchnię ziemskiego " +
@@ -21,18 +21,18 @@ namespace FastWritingApp
             "niewidocznej z Ziemi strony Księżyca.";
 
 
-        public string[] textToWriteWords;
+        string[] textToWriteWords;
 
-        public Color normalTextColor = Color.Black;
-        public Color wrongTextColor = Color.Red;
+        Color normalTextColor = Color.Black;
+        Color wrongTextColor = Color.Red;
 
-        public int currentWord = 0;
+        int currentWord = 0;
 
-        public int timePassed = 0;
+        int timePassed = 0;
 
-        public float wordsPerMinute;
+        float wordsPerMinute;
 
-        public Timer t = new Timer();
+        Timer t = new Timer();
 
         public Form1()
         {
@@ -45,13 +45,6 @@ namespace FastWritingApp
             textBox1.Text = textToWrite;
 
             textToWriteWords = textToWrite.Split();
-            /*
-            for (int i = 0; i < textToWriteWords.Length; i++)
-            {
-                textBox1.Text += textToWriteWords[i] + "\r\n";
-                
-            }
-            */
 
             UpdateDisplay();
         }
@@ -61,10 +54,7 @@ namespace FastWritingApp
             if (currentWord >= textToWriteWords.Length)
             {
                 return;
-            }
-
-                
-                
+            }               
                 
             CalculateWordsPerMinute();
 
@@ -129,22 +119,6 @@ namespace FastWritingApp
             UpdateDisplay();
         }
             
-        
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        //stats up
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        //stats down
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
 
         void CalculateWordsPerMinute()
         {
